@@ -7,8 +7,8 @@ import requests
 
 app = Flask(__name__)
 DATABASE = 'reminders.db'
-TELEGRAM_BOT_TOKEN = '7463164282:AAFteqjK6PTOdyYln-FNUNtFMnW9PVobC2A'
-STATIC_CHAT_ID = '-1002165408003'  # Ganti dengan chat ID statis Anda
+TELEGRAM_BOT_TOKEN = 'YOUR_TOKEN_BOT'
+STATIC_CHAT_ID = 'YOUR_CHAT_ID'  # Ganti dengan chat ID statis Anda
 TELEGRAM_API_URL = f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}"
 
 def init_db():
